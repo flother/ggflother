@@ -1,0 +1,16 @@
+Package: ggflother
+Title: Create ggplot2 charts in the style used on flother.is
+Version: 0.1.0
+Authors@R: person("Matt", "Riggott", email = "matt.riggott@gmail.com",
+                  role = c("aut", "cre"))
+Description: Create ggplot2 charts in the used on flother.is. Includes a complete
+  theme that matches the style used for data visualisations on flother.is.
+Depends: R (>= 3.1.0)
+License: GPL-3
+Imports:
+  ggplot2,
+  grid
+URL: https://github.com/flother/ggflother
+BugReports: https://github.com/flother/ggflother/issues
+Encoding: UTF-8
+RoxygenNote: 6.1.1
