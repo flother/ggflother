@@ -70,7 +70,7 @@ theme_flother <- function(font_family = "Valkyrie T4", font_size = 12) {
     axis.text.x = ggplot2::element_text(hjust = 0.5),
     axis.text.x.bottom = ggplot2::element_text(margin = ggplot2::margin(t = font_size * 0.5)),
     axis.text.x.top = ggplot2::element_text(margin = ggplot2::margin(b = font_size * 0.5)),
-    axis.text.y = ggplot2::element_text(hjust = 0),
+    axis.text.y = ggplot2::element_text(hjust = 1),
 
     # Tick marks that link labels to their locations on the axis lines.
     axis.ticks = ggplot2::element_line(colour = "#222222",
