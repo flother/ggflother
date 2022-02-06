@@ -83,7 +83,7 @@ theme_flother <- function(font_family = "Valkyrie T4", font_size = 12) {
     legend.background = ggplot2::element_blank(),
     legend.margin = ggplot2::margin(l = -font_size),
     legend.spacing.x = grid::unit(font_size, "points"),
-    legend.spacing.y = grid::unit(font_size, "points"),
+    legend.spacing.y = grid::unit(font_size / 2, "points"),
     legend.key = ggplot2::element_blank(),
     legend.key.height = grid::unit(1, "points"),
     legend.key.width = grid::unit(font_size * 2, "points"),
